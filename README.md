@@ -1,5 +1,6 @@
-# Specifying an R environment with a runtime.txt file
-
+r-4.2-2022-10-31# Specifying an R environment with a runtime.txt file
+install.packages("BiocManager")
+BiocManager::install("mixOmics")
 Jupyter+R: [![Binder](http://mybinder.org/badge_logo.svg)](http://mybinder.org/v2/gh/binder-examples/r/master?filepath=index.ipynb)
 
 RStudio: [![Binder](http://mybinder.org/badge_logo.svg)](http://mybinder.org/v2/gh/binder-examples/r/master?urlpath=rstudio)
